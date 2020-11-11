@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<sdf version="1.4">
+  <world name="default">
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <plugin name="factory" filename="libfactory.so">
+      <map_file_str>map_file.txt</map_file_str>
+    </plugin>
+
+  </world>
+</sdf>
