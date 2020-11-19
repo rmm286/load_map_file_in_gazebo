@@ -62,7 +62,7 @@ namespace gazebo
       {
 
         //read map data
-        std::ifstream data_("../map_file.json");
+        std::ifstream data_("/home/pc/gazebo_plugin_tutorial/map_file.json");
         json jsonData = json::parse(data_);
 
         json_data::mapData map_data{
@@ -91,8 +91,10 @@ namespace gazebo
 
         //number of grapevines in each row
         
+        int rowsize = rows_in_local_frame.size();
 
-        for (int i = 0; i < rows_in_local_frame.size(); i++)
+        for (int i = 0; i < rowsize; i++)
+        //for (int i = 0; i < 2; i++)
         {
           double direction[2] = {rows_in_local_frame[i][1][0] - rows_in_local_frame[i][0][0],
                                  rows_in_local_frame[i][1][1] - rows_in_local_frame[i][0][1]};
