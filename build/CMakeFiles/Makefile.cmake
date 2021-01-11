@@ -17,6 +17,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../json/cmake/config.cmake.in"
   "../json/cmake/nlohmann_jsonConfigVersion.cmake.in"
   "../json/cmake/pkg-config.pc.in"
+  "/opt/ros/kinetic/share/ompl/ompl-config.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config-version.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/ignition-math2/ignition-math2-config-version.cmake"

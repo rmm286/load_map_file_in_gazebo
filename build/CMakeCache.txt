@@ -571,6 +571,24 @@ OGRE_Volume_LIBRARY_FWK:STRING=NOTFOUND
 //x
 OGRE_Volume_LIBRARY_REL:FILEPATH=/usr/lib/x86_64-linux-gnu/libOgreVolume.so
 
+//Path to a library.
+OMPLAPPBASE_LIBRARY:FILEPATH=OMPLAPPBASE_LIBRARY-NOTFOUND
+
+//Path to a library.
+OMPLAPP_LIBRARY:FILEPATH=OMPLAPP_LIBRARY-NOTFOUND
+
+//Path to a file.
+OMPL_CONFIG:FILEPATH=/opt/ros/kinetic/include/ompl/config.h
+
+//Path to a file.
+OMPL_INCLUDE_DIRS:PATH=/opt/ros/kinetic/include/ompl/base
+
+//Path to OMPL library
+OMPL_LIBRARIES:FILEPATH=/opt/ros/kinetic/lib/x86_64-linux-gnu/libompl.so
+
+//Path to a library.
+OMPL_LIBRARY:FILEPATH=/opt/ros/kinetic/lib/x86_64-linux-gnu/libompl.so
+
 //Path to a program.
 P4COMMAND:FILEPATH=P4COMMAND-NOTFOUND
 
@@ -649,6 +667,9 @@ nlohmann_json_BINARY_DIR:STATIC=/home/pc/gazebo_plugin_tutorial/build/json
 
 //Value Computed by CMake
 nlohmann_json_SOURCE_DIR:STATIC=/home/pc/gazebo_plugin_tutorial/json
+
+//The directory containing a CMake configuration file for ompl.
+ompl_DIR:PATH=/opt/ros/kinetic/share/ompl
 
 //Path to a library.
 onelib:FILEPATH=/usr/lib/x86_64-linux-gnu/libignition-math2.so
@@ -887,6 +908,8 @@ CVSCOMMAND-ADVANCED:INTERNAL=1
 CVS_UPDATE_OPTIONS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: DART_TESTING_TIMEOUT
 DART_TESTING_TIMEOUT-ADVANCED:INTERNAL=1
+//Details about finding OMPL
+FIND_PACKAGE_MESSAGE_DETAILS_OMPL:INTERNAL=[/opt/ros/kinetic/lib/x86_64-linux-gnu/libompl.so][/opt/ros/kinetic/include][v()]
 //Details about finding PkgConfig
 FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/usr/bin/pkg-config][v0.29.1()]
 //Details about finding Protobuf
